@@ -22,6 +22,11 @@
       return $conn;
     }
 
+    function scan()
+    {
+        echo "true";
+    }
+
 
     // http://localhost/radio.php/getChannels
     function getChannels()
@@ -295,7 +300,6 @@
         } 
         $conn->close();
     } 
-
 
 
 
